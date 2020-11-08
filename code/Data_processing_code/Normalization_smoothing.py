@@ -1,7 +1,7 @@
 # ### This code is formulated for Batch processing of files ###################
 
 # The processing steps are as follows
-# 1. Load all raw data files
+# 1. Load all inter polated data files
 # 2. Data is normalised and smoothened.
 
 
