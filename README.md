@@ -27,12 +27,12 @@ The following gives you brief overview on the code provided in this repo:<br>
   </ul>
   <li>main function</li>
   <ul>
-    <li>the main basically just creates listener and contoller instances and controls the program exit so if you press enter the program will stop and exit the while loop<br>it also sets the policy of the leap controller to background so the data gathering can happen in the background while you run other programs</li>
+    <li>the main, creates listener and contoller instances and controls the program exit so if you press enter the program will stop and exit the while loop<br>it also sets the policy of the leap controller to background so the data acquisition can happen in the background while you run other programs</li>
   </ul>
   <li>SampleListener class</li>
   <ul>
-    <li>on_connect: just prints conncected when your leap device connects succesfully</li>
-    <li>on_frame: gets the data of each frame and writes them into separate textfiles for both hands each<br>
+    <li>on_connect: prints conncected when your leap device connects succesfully</li>
+    <li>on_frame: fetches the data of each frame and writes them into separate textfiles for both hands each<br>
       the textfiles for each run will be put into the rawData folder and named lefthand <b>N</b> and righthand <b>N</b> where <b>N</b> is the counter refering to the runs starting at 1</li>
       </ul>
   <li>Server class</li>
@@ -49,7 +49,7 @@ The following gives you brief overview on the code provided in this repo:<br>
   </ul>
   <li>sanitiseArray</li>
   <ul>
-    <li>just removes opening and closing brackets from (x, y, z) tuples as you dont want those in your data</li>
+    <li>removes opening and closing brackets from (x, y, z) tuples as you dont want those in your data</li>
   </ul>
 </ul>
   
@@ -80,7 +80,7 @@ are still connected to the public WIFI (in case you use a public WIFI).
 Funding
 -------
 
-This project was funded by EIT Health under grant id: 19340
+This project was funded by <b>EIT Health under grant id: 19340</b>
 
 
 
