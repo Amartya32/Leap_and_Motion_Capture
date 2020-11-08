@@ -1,11 +1,19 @@
 # Leap_and_Motion_Capture
-Validation of Leap Motion Controller
 
-# leap_motion
+Paper Title: <b>Performance of the Leap Motion Controller synchronised with standard markered motion capture"</b><br>
+Journal    : <b>Sensors (https://www.mdpi.com/journal/sensors)</b><br>
+Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and Katja Mombaur<sup>2</sup> <b>br>
+
+1. Optimization, Robotics and Biomechanics, Institute of Computer Engineering, Heidelberg University, 69120,Heidelberg, Germany<br>
+2. Canada Excellence Chair in Human-Centred Robotics and Machine Intelligence, University of Waterloo,Waterloo, ON N2L 3G1, Canada.;
+katja.mombaur@uwaterloo.ca<br>
+*Correspondence: amartya.ganguly@ziti.uni-heidelberg.de<br>
+
+# Leap Motion Controller
 All relevant information regarding leap development can be found here.<br>
 https://developer-archive.leapmotion.com/documentation/python/index.html
 
-A quick introduction on how to conncect the leap controller and output the data can be found here:,<br>
+A quick introduction on how to conncect the leap controller and output the data can be found here:<br>
 https://developer-archive.leapmotion.com/documentation/python/devguide/Sample_Tutorial.html <br>
 Parts of the code snippets like the SampleListener Class, the main function as well as the on_frame function are also used in this code.<br><br>
 The following gives you brief overview on the code provided in this repo:<br>
@@ -25,7 +33,7 @@ The following gives you brief overview on the code provided in this repo:<br>
   <ul>
     <li>on_connect: just prints conncected when your leap device connects succesfully</li>
     <li>on_frame: gets the data of each frame and writes them into separate textfiles for both hands each<br>
-      the textfiles for each run will be put into the rawData folder and named lefthand<b>N</b> and righthand<b>N</b> where <b>N</b> is the counter refering to the runs starting at 1</li>
+      the textfiles for each run will be put into the rawData folder and named lefthand <b>N</b> and righthand <b>N</b> where <b>N</b> is the counter refering to the runs starting at 1</li>
       </ul>
   <li>Server class</li>
   <ul>
@@ -48,17 +56,17 @@ The following gives you brief overview on the code provided in this repo:<br>
 
 
 
-starting procedure
+Starting procedure
 ------------------
 Script depends on Python2 code so you should run it with Python2. If you use the machine in the lab Python 2 is already preinstalled. You can run it by starting the Windows Powershell
 and run the command: python2 leapDataExtraction.py for running this script.
 
-running script and QTM on the same machine
+Running the script and QTM on the same machine
 ------------------------------------------
 The script takes an optional parameter which is the IP address of the network interface of the machine which is running the QTM programm. By default it is set to the loopback interface,
 so if QTM is running on the same machine where you are running this script then everything is fine and you do not need to provide any arguments in the commandline to script.
 
-running script and QTM on different machines
+Running the script and QTM on different machines
 --------------------------------------------
 However if you wish to run this script on a different machine from which QTM is running on then you will need to give the script the IP address of the machine which is running QTM.
 As eduroam does not allow unathorized UDP-SocketStreams you will have first to log in the machine into a different WIFI e.g. Heidelberg4You.
