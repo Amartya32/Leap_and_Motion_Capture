@@ -1,6 +1,6 @@
 # Leap_and_Motion_Capture
 
-Paper Title: <b>Performance of the Leap Motion Controller synchronised with standard markered motion capture"</b><br>
+Paper Title: <b>Performance of the Leap Motion Controller synchronised with standard markered motion capture</b><br>
 Journal    : <b>Sensors (https://www.mdpi.com/journal/sensors)</b><br>
 Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and Katja Mombaur<sup>2</sup> </b><br>
 
@@ -74,3 +74,10 @@ You can get the IP address if you start the  Windows Commandline (cmd) on the ma
 string argument to the script (python2 leapDataExtraction.py "IPv4 address from WIFI interface"). The server of the script will now listen to this interface and you can proceed as if you would run
 the script and QTM on the same machine. Be careful the machines logged in into the public WIFIs will log out after some time automatically so before you start your measurement check if you
 are still connected to the public WIFI (in case you use a public WIFI).
+
+
+
+Funding
+-------
+
+This project was funded by EIT Health under grant id: 19340
