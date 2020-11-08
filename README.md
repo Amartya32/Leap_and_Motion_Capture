@@ -2,7 +2,7 @@
 
 Paper Title: <b>Performance of the Leap Motion Controller synchronised with standard markered motion capture"</b><br>
 Journal    : <b>Sensors (https://www.mdpi.com/journal/sensors)</b><br>
-Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and Katja Mombaur<sup>2</sup> <b>br>
+Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and Katja Mombaur<sup>2</sup> </b><br>
 
 1. Optimization, Robotics and Biomechanics, Institute of Computer Engineering, Heidelberg University, 69120,Heidelberg, Germany<br>
 2. Canada Excellence Chair in Human-Centred Robotics and Machine Intelligence, University of Waterloo,Waterloo, ON N2L 3G1, Canada.;
