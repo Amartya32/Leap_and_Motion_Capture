@@ -68,12 +68,12 @@ so if QTM is running on the same machine where you are running this script then 
 
 Running the script and QTM on different machines
 --------------------------------------------
-However if you wish to run this script on a different machine from which QTM is running on then you will need to give the script the IP address of the machine which is running QTM.
-As eduroam does not allow unathorized UDP-SocketStreams you will have first to log in the machine into a different WIFI e.g. Heidelberg4You.
-You can get the IP address if you start the  Windows Commandline (cmd) on the machine running QTM and run the command: ipconfig. Get IPv4-address from the WIFI Interface and give it as a
-string argument to the script (python2 leapDataExtraction.py "IPv4 address from WIFI interface"). The server of the script will now listen to this interface and you can proceed as if you would run
-the script and QTM on the same machine. Be careful the machines logged in into the public WIFIs will log out after some time automatically so before you start your measurement check if you
-are still connected to the public WIFI (in case you use a public WIFI).
+However, to run this script on a different machine from which QTM is running, then the script needs the IP address of the machine which runs QTM. Eduroam does not allow unathorized UDP-SocketStreams. Log in the machine into a different WiFi, e.g. Heidelberg4You. Obtain the IP address when using the Windows Commandline (cmd) on the machine running QTM and run the command: ipconfig. 
+
+Obtain IPv4-address from the WiFi interface and give it as a string argument to the script (python2 leapDataExtraction.py "IPv4 address from WiFi interface"). The server of the script will listen to this interface and run the script and QTM on the same machine. 
+
+Warning: The machines logged in into the public WiFis will log out after some time automatically so before you start your measurement check if you are still connected to the public WiFi. (in case of public WIFI).
+
 
 
 
