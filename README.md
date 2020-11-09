@@ -43,11 +43,11 @@ The following gives you brief overview of the synchronisation code provided in t
     <li> the server is responsible for updating the golbal <em>status_qtm</em> variable which gets written into the output textfile and indicates the intervals in which QTM was capturing data while running the Leap Motion Controller</li>
     <li> this intervalls are consecutive leap data frames which have a 1 in their status_qtm column</li>
   </ul>
-  <li> sortFingersByName</li>
+  <li> <em>sortFingersByName</em></li>
   <ul>
     <li> sorts the fingers by name in this order: Thumb, Index, Middle, Ring, Pinky.<br>This is required for plotting procedures.</li>
   </ul>
-  <li>sanitiseArray</li>
+  <li> <em>sanitiseArray</em></li>
   <ul>
     <li> removes opening and closing brackets from (x, y, z) tuples </li>
   </ul>
