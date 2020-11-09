@@ -21,9 +21,9 @@ The following gives you brief overview on the code provided in this repo:<br>
   <li>main code block</li>
   <ul>
     <li>this part updates the file counter for the runs and prints the header of the text files<br>
-      it also produces two folders: processed and postProcessed<br>
-      the processed folder contains the data which has the 1 set in the status_qtm column<br>
-      the postProcessed folder contains the the same data as the processed folder but sorted by finger names</li>
+      * produces two folders: processed and postProcessed<br>
+      * processed folder contains the data which has the 1 set in the status_qtm column<br>
+      * postProcessed folder contains data sorted by finger names</li>
   </ul>
   <li>main function</li>
   <ul>
