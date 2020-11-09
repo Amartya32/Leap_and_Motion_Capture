@@ -54,17 +54,11 @@ The following gives you brief overview on the code provided in this repo:<br>
 </ul>
   
 
-
-
-Starting procedure
-------------------
-Script depends on Python2 code so you should run it with Python2. If you use the machine in the lab Python 2 is already preinstalled. You can run it by starting the Windows Powershell
-and run the command: python2 leapDataExtraction.py for running this script.
-
 Running the script and QTM on the same machine
 ------------------------------------------
-The script takes an optional parameter which is the IP address of the network interface of the machine which is running the QTM programm. By default it is set to the loopback interface,
-so if QTM is running on the same machine where you are running this script then everything is fine and you do not need to provide any arguments in the commandline to script.
+Script depends on Python2 code. Run it by starting the Windows Powershell and the command: python2 leapDataExtraction.py
+
+The script takes an optional parameter, the IP address of the network interface of the machine which runs the QTM programme. By default, it is set to the loop-back interface. 
 
 Running the script and QTM on different machines
 --------------------------------------------
