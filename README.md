@@ -10,13 +10,13 @@ katja.mombaur@uwaterloo.ca<br>
 *Correspondence: amartya.ganguly@ziti.uni-heidelberg.de<br>
 
 # Leap Motion Controller
-All relevant information regarding leap development can be found here.<br>
+All relevant information regarding Leap development SDK can be found here.<br>
 https://developer-archive.leapmotion.com/documentation/python/index.html
 
-A quick introduction on how to conncect the leap controller and output the data can be found here:<br>
+A quick introduction on how to conncect the Leap Motion Controller and output the data can be found here:<br>
 https://developer-archive.leapmotion.com/documentation/python/devguide/Sample_Tutorial.html <br>
-Parts of the code snippets like the SampleListener Class, the main function as well as the on_frame function are also used in this code.<br><br>
-The following gives you brief overview on the code provided in this repo:<br>
+Parts of the code snippets like the *SampleListener* Class, the *main* function as well as the *on_frame* function are also used in this code.<br><br>
+The following gives you brief overview of the synchronisation code provided in this repo:<br>
 <ul>
   <li>main code block</li>
   <ul>
@@ -25,31 +25,31 @@ The following gives you brief overview on the code provided in this repo:<br>
     <li> processed folder contains the data which has the 1 set in the status_qtm column<br>
     <li> postProcessed folder contains data sorted by finger names</li>
   </ul>
-  <li>main function</li>
+  <li>*main* function</li>
   <ul>
-    <li> the main, creates listener and contoller instances; controls the program exit; press enter to stop and exit from the while loop<br>it also sets the policy of the leap controller to background so the data acquisition can happen in the background while you run other programs</li>
+    <li> creates listener and contoller instances; controls the program exit; press enter to stop and exit from the while loop<br> sets the policy of the Leap Controller to background so the data acquisition can continue while other programs run</li>
   </ul>
-  <li>SampleListener class</li>
+  <li>*SampleListener* class</li>
   <ul>
-    <li> on_connect: prints conncected when your leap device connects succesfully</li>
-    <li> on_frame: fetches the data of each frame and writes them into separate textfiles for both hands each<br>
-      the textfiles for each run will be put into the rawData folder and named lefthand <b>N</b> and righthand <b>N</b> where <b>N</b> is the counter refering to the runs starting at 1</li>
+    <li> *on_connect*: prints conncected when your leap device connects succesfully</li>
+    <li> *on_frame*: fetches the data of each frame and writes them into separate textfiles for both hands each<br>
+      Textfiles for each run will be put into the rawData folder and named lefthand <b>N</b> and righthand <b>N</b>, where, <b>N</b> is the counter refering to the runs starting at 1</li>
       </ul>
-  <li>Server class</li>
+  <li>*Server* class</li>
   <ul>
-    <li> implements a background server on a second thread which runs parallel to the main program and listens on a udp socket to incoming events from qtm on port 8888, which is the default port of qtm sending out data</li>
+    <li> implements a background server on a second thread which runs parallel to the main program and listens on a UDP socket to incoming events from QTM on port 8888, which is the default port of QTM sending out data</li>
     <li> default interface the is the loopback interface which refers to the machine this servers on</li>
-    <if you dont give the program any parameters then it will use this default confgurations</li>
-    <li> the server is responsible for updating the golbal status_qtm variable which gets written into the outout textfile and indicates the intervalls in which qtm was capturing data while running the leap</li>
+    <if no parameters are given the program will use default confgurations</li>
+    <li> the server is responsible for updating the golbal *status_qtm* variable which gets written into the output textfile and indicates the intervals in which QTM was capturing data while running the Leap Motion Controller</li>
     <li> this intervalls are consecutive leap data frames which have a 1 in their status_qtm column</li>
   </ul>
   <li> sortFingersByName</li>
   <ul>
-    <li> sorts the fingers by name in this order: Thumb, Index, Middle, Ring, Pinky.<br>This may be required for some                                        plotting procedures.</li>
+    <li> sorts the fingers by name in this order: Thumb, Index, Middle, Ring, Pinky.<br>This is required for plotting procedures.</li>
   </ul>
   <li>sanitiseArray</li>
   <ul>
-    <li> removes opening and closing brackets from (x, y, z) tuples as you dont want those in your data</li>
+    <li> removes opening and closing brackets from (x, y, z) tuples </li>
   </ul>
 </ul>
   
