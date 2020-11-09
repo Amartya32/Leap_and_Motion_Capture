@@ -20,36 +20,36 @@ The following gives you brief overview on the code provided in this repo:<br>
 <ul>
   <li>main code block</li>
   <ul>
-    <li>this part updates the file counter for the runs and prints the header of the text files<br>
-      * produces two folders: processed and postProcessed<br>
-      * processed folder contains the data which has the 1 set in the status_qtm column<br>
-      * postProcessed folder contains data sorted by finger names</li>
+    <li> this part updates the file counter for the runs and prints the header of the text files<br>
+    <li> produces two folders: processed and postProcessed<br>
+    <li> processed folder contains the data which has the 1 set in the status_qtm column<br>
+    <li> postProcessed folder contains data sorted by finger names</li>
   </ul>
   <li>main function</li>
   <ul>
-    <li>the main, creates listener and contoller instances and controls the program exit so if you press enter the program will stop and exit the while loop<br>it also sets the policy of the leap controller to background so the data acquisition can happen in the background while you run other programs</li>
+    <li> the main, creates listener and contoller instances; controls the program exit; press enter to stop and exit from the while loop<br>it also sets the policy of the leap controller to background so the data acquisition can happen in the background while you run other programs</li>
   </ul>
   <li>SampleListener class</li>
   <ul>
-    <li>on_connect: prints conncected when your leap device connects succesfully</li>
-    <li>on_frame: fetches the data of each frame and writes them into separate textfiles for both hands each<br>
+    <li> on_connect: prints conncected when your leap device connects succesfully</li>
+    <li> on_frame: fetches the data of each frame and writes them into separate textfiles for both hands each<br>
       the textfiles for each run will be put into the rawData folder and named lefthand <b>N</b> and righthand <b>N</b> where <b>N</b> is the counter refering to the runs starting at 1</li>
       </ul>
   <li>Server class</li>
   <ul>
-    <li>implements a background server on a second thread which runs parallel to the main program and listens on a udp socket to incoming events from qtm on port 8888, which is the default port of qtm sending out data</li>
-    <li>default interface the is the loopback interface which refers to the machine this servers on</li>
+    <li> implements a background server on a second thread which runs parallel to the main program and listens on a udp socket to incoming events from qtm on port 8888, which is the default port of qtm sending out data</li>
+    <li> default interface the is the loopback interface which refers to the machine this servers on</li>
     <if you dont give the program any parameters then it will use this default confgurations</li>
-    <li>the server is responsible for updating the golbal status_qtm variable which gets written into the outout textfile and indicates the intervalls in which qtm was capturing data while running the leap</li>
-    <li>this intervalls are consecutive leap data frames which have a 1 in their status_qtm column</li>
+    <li> the server is responsible for updating the golbal status_qtm variable which gets written into the outout textfile and indicates the intervalls in which qtm was capturing data while running the leap</li>
+    <li> this intervalls are consecutive leap data frames which have a 1 in their status_qtm column</li>
   </ul>
-  <li>sortFingersByName</li>
+  <li> sortFingersByName</li>
   <ul>
     <li> sorts the fingers by name in this order: Thumb, Index, Middle, Ring, Pinky.<br>This may be required for some                                        plotting procedures.</li>
   </ul>
   <li>sanitiseArray</li>
   <ul>
-    <li>removes opening and closing brackets from (x, y, z) tuples as you dont want those in your data</li>
+    <li> removes opening and closing brackets from (x, y, z) tuples as you dont want those in your data</li>
   </ul>
 </ul>
   
