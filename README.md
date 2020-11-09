@@ -18,6 +18,7 @@ https://developer-archive.leapmotion.com/documentation/python/devguide/Sample_Tu
 Parts of the code snippets like the *SampleListener* Class, the *main* function as well as the *on_frame* function are also used in this code.<br><br>
 The following gives you brief overview of the synchronisation code provided in this repo:<br>
 <ul>
+  
   <li>main code block</li>
   <ul>
     <li> this part updates the file counter for the runs and prints the header of the text files<br>
@@ -25,16 +26,20 @@ The following gives you brief overview of the synchronisation code provided in t
     <li> processed folder contains the data which has the 1 set in the status_qtm column<br>
     <li> postProcessed folder contains data sorted by finger names</li>
   </ul>
+  
   <li> <em>main</em> function</li>
   <ul>
-    <li> creates listener and contoller instances; controls the program exit; press enter to stop and exit from the while loop<br> sets the policy of the Leap Controller to background so the data acquisition can continue while other programs run</li>
+    <li> creates listener and contoller instances; controls the program exit; press enter to stop and exit from the while loop<br> 
+    <li> sets the policy of the Leap Controller to background so the data acquisition can continue while other programs run</li>
   </ul>
+  
   <li> <em>SampleListener</em> class</li>
   <ul>
     <li> <em>on_connect</em>: prints conncected when your leap device connects succesfully</li>
     <li> <em>on_frame</em>: fetches the data of each frame and writes them into separate textfiles for both hands each<br>
       Textfiles for each run will be put into the rawData folder and named lefthand <b>N</b> and righthand <b>N</b>, where, <b>N</b> is the counter refering to the runs starting at 1</li>
       </ul>
+      
   <li> <em>Server</em> class</li>
   <ul>
     <li> implements a background server on a second thread which runs parallel to the main program and listens on a UDP socket to incoming events from QTM on port 8888, which is the default port of QTM sending out data</li>
@@ -43,14 +48,17 @@ The following gives you brief overview of the synchronisation code provided in t
     <li> the server is responsible for updating the golbal <em>status_qtm</em> variable which gets written into the output textfile and indicates the intervals in which QTM was capturing data while running the Leap Motion Controller</li>
     <li> this intervalls are consecutive leap data frames which have a 1 in their status_qtm column</li>
   </ul>
+  
   <li> <em>sortFingersByName</em></li>
   <ul>
     <li> sorts the fingers by name in this order: Thumb, Index, Middle, Ring, Pinky.<br>This is required for plotting procedures.</li>
   </ul>
+  
   <li> <em>sanitiseArray</em></li>
   <ul>
     <li> removes opening and closing brackets from (x, y, z) tuples </li>
   </ul>
+  
 </ul>
   
 
