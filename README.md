@@ -79,6 +79,8 @@ Warning: The machines logged in into the public WiFis will log out after some ti
 
 Examples of dynamic movements of one subject
 --------------------------------------------
+
+Thumb flexion
 ![me](thumb_flexion.gif)
 
 
