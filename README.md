@@ -77,6 +77,9 @@ Obtain IPv4-address from the WiFi interface and give it as a string argument to 
 Warning: The machines logged in into the public WiFis will log out after some time automatically so before you start your measurement check if you are still connected to the public WiFi. (in case of public WIFI).
 
 
+Examples of dynamic movements of one subject
+--------------------------------------------
+![me](https://github.com/Amartya32/Leap_and_Motion_Capture.git/thumb_flexion.gif)
 
 
 Funding
