@@ -79,7 +79,7 @@ Warning: The machines logged in into the public WiFis will log out after some ti
 
 Examples of dynamic movements of one subject
 --------------------------------------------
-![me](https://github.com/Amartya32/Leap_and_Motion_Capture.git/thumb_flexion.gif)
+![me](thumb_flexion.gif)
 
 
 Funding
