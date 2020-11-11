@@ -87,11 +87,11 @@ Examples of dynamic movements of one subject
 
 | Index Flexion | Middle flexion|
 | ------------- | ------------- |
-| ![me](thumb_flexion.gif)  |![me](thumb_flexion.gif) |
+| ![me](index_flexion.gif)  |![me](middle_flexion.gif) |
 
 | Ring flexion | Pinky flexion |
 | ------------- | ------------- |
-![me](thumb_flexion.gif)  |![me](thumb_flexion.gif)  |
+![me](ring_flexion.gif)  |![me](pinky_flexion.gif)  |
 
 Funding
 -------
