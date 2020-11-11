@@ -9,6 +9,11 @@ Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and K
 katja.mombaur@uwaterloo.ca<br>
 *Correspondence: amartya.ganguly@ziti.uni-heidelberg.de<br>
 
+# Repository overview
+All raw data files are stored in *Dynamic* (flexion trials) and *Static* folder.
+
+The *code* folder contains data extraction and processing. The names of the files are self-explanatory 
+
 # Leap Motion Controller
 All relevant information regarding Leap development SDK can be found here.<br>
 https://developer-archive.leapmotion.com/documentation/python/index.html
