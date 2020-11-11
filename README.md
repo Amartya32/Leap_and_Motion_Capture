@@ -81,11 +81,11 @@ Examples of dynamic movements of one subject
 --------------------------------------------
 
 
-| Thumb Flexion | Thumb abduction |
+| Thumb flexion | Thumb abduction |
 | ------------- | ------------- |
 | ![me](thumb_flexion.gif)  |![me](thumb_flexion.gif)  |
 
-| Index Flexion | Middle flexion|
+| Index flexion | Middle flexion|
 | ------------- | ------------- |
 | ![me](index_flexion.gif)  |![me](middle_flexion.gif) |
 
