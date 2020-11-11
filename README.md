@@ -80,11 +80,18 @@ Warning: The machines logged in into the public WiFis will log out after some ti
 Examples of dynamic movements of one subject
 --------------------------------------------
 
-Thumb Flexion
---------------------------------------------
-![me](thumb_flexion.gif)
 
+| Thumb Flexion | Thumb abduction |
+| ------------- | ------------- |
+| ![me](thumb_flexion.gif)  |![me](thumb_flexion.gif)  |
 
+| Index Flexion | Middle flexion|
+| ------------- | ------------- |
+| ![me](thumb_flexion.gif)  |![me](thumb_flexion.gif) |
+
+| Ring flexion | Pinky flexion |
+| ------------- | ------------- |
+![me](thumb_flexion.gif)  |![me](thumb_flexion.gif)  |
 
 Funding
 -------
