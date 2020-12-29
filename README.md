@@ -1,6 +1,6 @@
 # Leap_and_Motion_Capture
 
-Paper Title: <b>Performance of the Leap Motion Controller synchronised with standard markered motion capture</b><br>
+Paper Title: <b>Comparison of performance of the Leap Motion Controller with standard marker-based motioncapture system</b><br>
 Journal    : <b>Sensors (https://www.mdpi.com/journal/sensors)</b><br>
 Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and Katja Mombaur<sup>2</sup> </b><br>
 
