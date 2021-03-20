@@ -50,7 +50,7 @@ The following gives you brief overview of the synchronisation code provided in t
     <li> implements a background server on a second thread which runs parallel to the main program and listens on a UDP socket to incoming events from QTM on port 8888, which is the default port of QTM sending out data</li>
     <li> default interface the is the loopback interface which refers to the machine this servers on</li>
     <if no parameters are given the program will use default confgurations</li>
-    <li> the server is responsible for updating the golbal <em>status_qtm</em> variable which gets written into the output textfile and indicates the intervals in which QTM was capturing data while running the Leap Motion Controller</li>
+    <li> the server is responsible for updating the global <em>status_qtm</em> variable which gets written into the output textfile and indicates the intervals in which QTM was capturing data while running the Leap Motion Controller</li>
     <li> this intervalls are consecutive leap data frames which have a 1 in their status_qtm column</li>
   </ul>
   
@@ -103,7 +103,16 @@ Funding
 
 This project was funded by <b>EIT Health under grant id: 19340</b>
 
+Cite this work
+--------------
+MDPI and ACS Style
+Ganguly, A.; Rashidi, G.; Mombaur, K. Comparison of the Performance of the Leap Motion ControllerTM with a Standard Marker-Based Motion Capture System. Sensors 2021, 21, 1750. https://doi.org/10.3390/s21051750
 
+AMA Style
+Ganguly A, Rashidi G, Mombaur K. Comparison of the Performance of the Leap Motion ControllerTM with a Standard Marker-Based Motion Capture System. Sensors. 2021; 21(5):1750. https://doi.org/10.3390/s21051750
+
+Chicago/Turabian Style
+Ganguly, Amartya; Rashidi, Gabriel; Mombaur, Katja. 2021. "Comparison of the Performance of the Leap Motion ControllerTM with a Standard Marker-Based Motion Capture System" Sensors 21, no. 5: 1750. https://doi.org/10.3390/s21051750
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
