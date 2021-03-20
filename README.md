@@ -106,13 +106,13 @@ This project was funded by <b>EIT Health under grant id: 19340</b>
 Cite this work
 --------------
 MDPI and ACS Style
-Ganguly, A.; Rashidi, G.; Mombaur, K. Comparison of the Performance of the Leap Motion ControllerTM with a Standard Marker-Based Motion Capture System. Sensors 2021, 21, 1750. https://doi.org/10.3390/s21051750
+Ganguly, A.; Rashidi, G.; Mombaur, K. Comparison of the Performance of the Leap Motion Controller<sup>TM</sup> with a Standard Marker-Based Motion Capture System. Sensors 2021, 21, 1750. https://doi.org/10.3390/s21051750
 
 AMA Style
-Ganguly A, Rashidi G, Mombaur K. Comparison of the Performance of the Leap Motion ControllerTM with a Standard Marker-Based Motion Capture System. Sensors. 2021; 21(5):1750. https://doi.org/10.3390/s21051750
+Ganguly A, Rashidi G, Mombaur K. Comparison of the Performance of the Leap Motion Controller<sup>TM</sup> with a Standard Marker-Based Motion Capture System. Sensors. 2021; 21(5):1750. https://doi.org/10.3390/s21051750
 
 Chicago/Turabian Style
-Ganguly, Amartya; Rashidi, Gabriel; Mombaur, Katja. 2021. "Comparison of the Performance of the Leap Motion ControllerTM with a Standard Marker-Based Motion Capture System" Sensors 21, no. 5: 1750. https://doi.org/10.3390/s21051750
+Ganguly, Amartya; Rashidi, Gabriel; Mombaur, Katja. 2021. "Comparison of the Performance of the Leap Motion Controller<sup>TM</sup> with a Standard Marker-Based Motion Capture System" Sensors 21, no. 5: 1750. https://doi.org/10.3390/s21051750
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
