@@ -1,7 +1,7 @@
 # Leap_and_Motion_Capture
 
-Paper Title: <b>Comparison of performance of the Leap Motion Controller with standard marker-based motioncapture system</b><br>
-Journal    : <b>Sensors (https://www.mdpi.com/journal/sensors)</b><br>
+Paper Title: <b>Comparison of the performance of the Leap Motion Controller<sup>TM</sup> with standard marker-based motioncapture system</b><br>
+Journal    : <b>Sensors (https://www.mdpi.com/1424-8220/21/5/1750)</b><br>
 Authors    : <b>Amartya Ganguly<sup>1*</sup>, Gabriel Rashidi<sup>1</sup>, and Katja Mombaur<sup>2</sup> </b><br>
 
 1. Optimization, Robotics and Biomechanics, Institute of Computer Engineering, Heidelberg University, 69120,Heidelberg, Germany<br>
